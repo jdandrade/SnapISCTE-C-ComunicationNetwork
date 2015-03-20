@@ -1,0 +1,8 @@
+joao@pt,joao diogo,LEI,2e6f9b0d5885b6010f9167787445617f553a735f
+julia@br,julia,LEI,40bd001563085fc35165329ea1ff5c5ecbdbbeef
+daniela@alg,daniela,GH,8fd8539c532fcba53729bafeab03b00f72ddd65f
+joana@pt,joana,LEI,1a167919f88b9e0aa862bffe7d2214cff5825db8
+jorgejesus@pt,jj,BEN,34080f2fff2daca49b02d201c0ccb1e22fcda202
+helder@pt,helder,LEI,c0144fc0bf38434e1162c7e59f41bff8c4f3a11b
+antonio@pt,antonio,GES,8514e20ec83795ef14e80487c11800618be2e283
+maria@br,maria lo,GH,ddec190343746cf49cc73f93cf04444e6fc704a8
