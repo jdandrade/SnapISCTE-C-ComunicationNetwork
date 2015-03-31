@@ -14,3 +14,7 @@ Client - Server relation. Being src/snapiscte.c the server and src/snapclient.c 
  
 - Login information has to match, to "create new logins" you can use this project: https://github.com/jdandrade/SnapISCTE-BashUserDataManagement or change file utilizadores.txt (last column is sha1 protected password)
 
+### Left to do
+
+Need to clean some code and add some documentation.
+
