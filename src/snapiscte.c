@@ -65,6 +65,8 @@ void obter_substring(char linha[], char resultado[], char separador, int indice)
    resultado[j]='\0';
 }
 
+// Envia um sinal do tipo SIGTERM para snapstatsd com o pid que foi guardado em snapstatsd.pid
+
 void enviaSinal(int signal){
 
 	FILE *d = fopen("snapstatsd.pid", "r");
@@ -423,6 +425,8 @@ int n = fork();
 
 
 int main(){
+	
+	//Signal Handling
 	signal(SIGINT, enviaSinal);
 	signal(SIGUSR1, trataUSR1);
 
