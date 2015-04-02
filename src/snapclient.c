@@ -141,6 +141,9 @@ int main(){
 			fgets ( opcao, 100, stdin );
 		        opcao[strlen(opcao)-1] = '\0';
 			int o = atoi(opcao);
+			
+			//Opcao Ler mensagens
+			
 			if( o == 1 ) {
 				printf("~~~~ LER MENSAGENS ~~~~\n");
 				int x = 1;
@@ -156,6 +159,9 @@ int main(){
 					printf("_____________________\n\n");
 					x++;
 				}
+			
+			// Opcao Escrever mensagens
+			
 			}else if ( o == 2 ){
 				char mensagem[182];
 				printf("~~~~ ESCREVER MENSAGENS ~~~~\n");
@@ -166,6 +172,9 @@ int main(){
 				m.tipo=2;
 				strcpy(m.mensagem, mensagem);
 				status = msgsnd(id1, &m, sizeof(m), 0);
+				
+			//Opcao SAIR
+				
 			}else if ( o == 3){
 				printf("A sair...\n");
 				exit(0);
