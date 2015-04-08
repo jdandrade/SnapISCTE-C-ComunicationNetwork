@@ -2,7 +2,7 @@
 
 Text based comunication (kind of like a text only SnapChat) between users using C - fork/msg/sem/shm.
 
-Client - Server relation. Being src/snapiscte.c the server and src/snapclient.c the client.
+Client - Server Application. Being src/snapiscte.c the server and src/snapclient.c the client.
 
 ### How to run
 
