@@ -236,6 +236,8 @@ int main(){
 	
 	fprintf(f, "%d\n", p);
 	fclose(f);
+	
+	// will run in background until it gets a SIGTERM sinal
 
 	while(1){
 		alarm(300);
