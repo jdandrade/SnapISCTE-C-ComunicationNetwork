@@ -29,6 +29,9 @@ typedef struct{
 char name[100];
 char pwd[100];
 
+// Obtem substring defenindo um separador e o indice, p.e: obter_substring("_;_;_;_", res, ';' , 1)
+// Resultado seria : "_;O;_;_" (seleccionava o campo O)
+
 void obter_substring(char linha[], char resultado[], char separador, int indice) {
    int i, j=0, meu_indice = 0;
    for (i=0; linha[i] != '\0'; i++) {
